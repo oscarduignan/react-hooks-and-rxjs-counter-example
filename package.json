@@ -1,0 +1,32 @@
+{
+  "name": "react-hooks-counter-experiments-usestate-useeffect-and-some-rxjs-observable-subscription-tinkering",
+  "version": "1.0.0",
+  "description": "Persists count to local storage, has a toggleable auto incrementer, and lets you increment / decrement / reset the count. Also implemented the behaviour in parallel using rxjs observables to see how it compares.",
+  "keywords": [
+    "rxjs",
+    "usestate",
+    "hooks",
+    "useeffect",
+    "react"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.7.0-alpha.0 - next",
+    "react-dom": "16.7.0-alpha.0 - next",
+    "react-scripts": "2.0.3",
+    "rxjs": "6.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
